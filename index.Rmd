@@ -1,0 +1,23 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+step1
+```{r}
+1+1
+```
+
+
+
+```{r}
+linkGit="https://github.com/DACSS-CSSmeths/nogradeHW/raw/refs/heads/main/airports.csv"
+
+mydata=read.csv(linkGit)
+
+str(mydata)
+```
+
+
